@@ -110,16 +110,16 @@ Ensure you have the following installed before running the project:
 
 2. ### 🌍 Environment Configuration
 
-   Before running the project, ensure you have a `.env` file in the root directory with the necessary environment variables. Below are the required secrets:
+   Before running the project, ensure you have a `.env` file in the root directory with the necessary environment variables. Below are the required secrets 🔑:
 
    ```env
-   🔑 NUGET_PASSWORD=<your-nuget-password>
-   🔑 SA_PASSWORD=<your-sql-server-password>
-   🔑 REDIS_PASSWORD=<your-redis-password>
-   🔑 ELASTIC_PASSWORD=<your-elasticsearch-password>
+   NUGET_PASSWORD=<your-nuget-password>
+   SA_PASSWORD=<your-sql-server-password>
+   REDIS_PASSWORD=<your-redis-password>
+   ELASTIC_PASSWORD=<your-elasticsearch-password>
    ```
 
-   Replace `<your-...-password>` with the actual values before running the services.
+   Replace 🔑 `<your-...-password>` with the actual values before running the services.
 
 3. ### Execute the downloaded script in PowerShell or CMD.
 ---
