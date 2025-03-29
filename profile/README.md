@@ -104,8 +104,22 @@ Ensure you have the following installed before running the project:
 
 1️⃣ **Clone the repository**  
 
-1. Download the script by right-clicking the link below and selecting **"Save link as..."**:
+1. ### Download the script by right-clicking the link below and selecting **"Save link as..."**:
 
    [Download setup-mera-store.ps1](https://gist.githubusercontent.com/sanjyotagureddy/0e06941f674d00ef483505083c6544ba/raw)
 
-2. Execute the downloaded script in PowerShell or CMD.
+2. ### 🌍 Environment Configuration
+
+   Before running the project, ensure you have a `.env` file in the root directory with the necessary environment variables. Below are the required secrets:
+
+   ```env
+   🔑 NUGET_PASSWORD=<your-nuget-password>
+   🔑 SA_PASSWORD=<your-sql-server-password>
+   🔑 REDIS_PASSWORD=<your-redis-password>
+   🔑 ELASTIC_PASSWORD=<your-elasticsearch-password>
+   ```
+
+   Replace `<your-...-password>` with the actual values before running the services.
+
+3. ### Execute the downloaded script in PowerShell or CMD.
+---
