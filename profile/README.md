@@ -53,35 +53,52 @@ Welcome to **MeraStore** – a **scalable, microservices-driven e-commerce fulfi
 
 ## 🏗️ Microservices
 
-| **Service** | **Functionality** |
-|------------|------------------|
-| **User Service** 👤 | Manages authentication, authorization & profiles. |
-| **Product Service** 🛒 | Handles product listings, categories & attributes. |
-| **Inventory Service** 📦 | Tracks stock levels & warehouse operations. |
-| **Order Service** 📑 | Processes customer orders & transactions. |
-| **Cart Service** 🛍️ | Manages shopping carts & wishlists. |
-| **Payment Service** 💳 | Handles transactions & payment gateways. |
-| **Shipping Service** 🚛 | Manages shipping, tracking & delivery. |
-| **Auth Service** 🔑 | Secure authentication (OAuth2, JWT). |
-| **Notification Service** 📢 | Sends email, SMS & push notifications. |
-| **Search Service** 🔎 | Elasticsearch-powered product search. |
-| **Review Service** ⭐ | Handles customer reviews & ratings. |
-| **Warehouse Service** 📊 | Manages warehouse logistics & stock movements. |
-| **Analytics Service** 📈 | Generates sales & operational insights. |
-| **Discount Service** 🎟️ | Handles coupons, vouchers & promotions. |
-| **API Gateway** 🚦 | Centralized entry point for all microservices. |
-| **Fraud Detection Service** 🛑 | Detects and prevents fraudulent transactions. |
+| **Service** | **Functionality** | **Repository** |
+|------------|------------------|---------------|
+| **User Service** 👤 | Manages authentication, authorization & profiles. | [GitHub](https://github.com/sanjyot-merastore/user-service) |
+| **Product Service** 🛒 | Handles product listings, categories & attributes. | [GitHub](https://github.com/sanjyot-merastore/product-service) |
+| **Inventory Service** 🛆 | Tracks stock levels & warehouse operations. | [GitHub](https://github.com/sanjyot-merastore/inventory-service) |
+| **Order Service** 📑 | Processes customer orders & transactions. | [GitHub](https://github.com/sanjyot-merastore/order-service) |
+| **Cart Service** 🛛 | Manages shopping carts & wishlists. | [GitHub](https://github.com/sanjyot-merastore/cart-service) |
+| **Payment Service** 💳 | Handles transactions & payment gateways. | [GitHub](https://github.com/sanjyot-merastore/payment-service) |
+| **Shipping Service** 🚛 | Manages shipping, tracking & delivery. | [GitHub](https://github.com/sanjyot-merastore/shipping-service) |
+| **Auth Service** 🔑 | Secure authentication (OAuth2, JWT). | [GitHub](https://github.com/sanjyot-merastore/auth-service) |
+| **Notification Service** 📢 | Sends email, SMS & push notifications. | [GitHub](https://github.com/sanjyot-merastore/notification-service) |
+| **Search Service** 🔎 | Elasticsearch-powered product search. | [GitHub](https://github.com/sanjyot-merastore/search-service) |
+| **Review Service** ⭐ | Handles customer reviews & ratings. | [GitHub](https://github.com/sanjyot-merastore/review-service) |
+| **Warehouse Service** 📊 | Manages warehouse logistics & stock movements. | [GitHub](https://github.com/sanjyot-merastore/warehouse-service) |
+| **Analytics Service** 📈 | Generates sales & operational insights. | [GitHub](https://github.com/sanjyot-merastore/analytics-service) |
+| **Discount Service** 🎟️ | Handles coupons, vouchers & promotions. | [GitHub](https://github.com/sanjyot-merastore/discount-service) |
+| **API Gateway** 🚦 | Centralized entry point for all microservices. | [GitHub](https://github.com/sanjyot-merastore/api-gateway) |
+| **Fraud Detection Service** 🚩 | Detects and prevents fraudulent transactions. | [GitHub](https://github.com/sanjyot-merastore/fraud-detection-service) |
+
 
 ---
 
 ## 🛠️ Shared Libraries & Infrastructure
 
 ### 📦 **Shared Libraries**
-- **Shared Kernel** 🏗️ – Common utilities, models & event handling.
-- **API Gateway** 🌍 – Centralized API management.
-- **Auth Library** 🔐 – Authentication & authorization logic.
-- **Logging Library** 📜 – Structured logging for Kibana.
-- **Rate-Limiting Library** ⏳ – Prevents API abuse.
+## 🏠 Shared Libraries & Infrastructure
+
+### 📦 **Shared Libraries**  [GitHub](https://github.com/sanjyot-merastore/shared-kernel)
+- **Core** 🛠️ – Domain objects and business rules.
+- **Exceptions** ⚠️ – Standardized exception handling.
+- **Logging** 🗒️ – Structured logging with Kibana.
+- **Caching** 🏰 – Redis, in-memory caching utilities.
+- **Cryptography** ⛏️ – Hashing, encryption, decryption utilities.
+- **Messaging** ✉️ – Event-driven communication (Kafka, RabbitMQ, EventStore).
+- **Security** 🔐 – JWT, API keys, permissions, RBAC.
+- **HTTP** 🛠️ – Standardized HTTP clients with retries, circuit breakers, logging.
+- **WebAPI** 🌐 – Middleware for validation, error handling, request logging, rate limiting.
+- **Tracing** 🔍 – OpenTelemetry-based distributed tracing.
+- **Rate Limiting** ⏳ – API rate limiting, throttling.
+- **Configuration Library** ⚙️ – Centralized configuration management.
+- **Observability** 📊 – Logging, metrics, alerting integration (Prometheus, Grafana, OpenTelemetry).
+- **Multi-Tenancy** 🏢 – Tenant-aware services, per-tenant database segregation.
+- **Search & Indexing** 🔍 – Elasticsearch/OpenSearch client abstraction.
+- **Audit Logging** 📃 – Immutable audit logs for compliance & forensic analysis.
+- **Data Access (DAL)** 📑 – Standardized repository pattern (EF Core, Dapper).
+
 
 ### 🏗️ **Infrastructure**
 - **Infra-Config** 🏢 – Infrastructure as code (IaC) setup.
