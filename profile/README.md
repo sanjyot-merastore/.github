@@ -69,9 +69,11 @@ Welcome to **MeraStore** – a **scalable, microservices-driven e-commerce fulfi
 | **Warehouse Service** 📊 | Manages warehouse logistics & stock movements. | [GitHub](https://github.com/sanjyot-merastore/warehouse-service) |
 | **Analytics Service** 📈 | Generates sales & operational insights. | [GitHub](https://github.com/sanjyot-merastore/analytics-service) |
 | **Discount Service** 🎟️ | Handles coupons, vouchers & promotions. | [GitHub](https://github.com/sanjyot-merastore/discount-service) |
+| **Vendor Service** 🏪 | Manages vendor registrations, approvals & profiles. | [GitHub](https://github.com/sanjyot-merastore/vendor-service) |
+| **Commission Service** 💰 | Calculates vendor commissions & settlements. | [GitHub](https://github.com/sanjyot-merastore/commission-service) |
+| **Accounts Service** 🏦 | Manages financial records, invoices & payouts. | [GitHub](https://github.com/sanjyot-merastore/accounts-service) |
 | **API Gateway** 🚦 | Centralized entry point for all microservices. | [GitHub](https://github.com/sanjyot-merastore/api-gateway) |
 | **Fraud Detection Service** 🚩 | Detects and prevents fraudulent transactions. | [GitHub](https://github.com/sanjyot-merastore/fraud-detection-service) |
-
 
 ---
 
